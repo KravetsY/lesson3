@@ -2,11 +2,11 @@ li{
 	padding: 3px;
 }
 li {
-    list-style-type: none; /* Убираем маркеры */
+    list-style-type: none; /* РЈР±РёСЂР°РµРј РјР°СЂРєРµСЂС‹ */
    }
 ul {
-    margin-left: 0; /* Отступ слева в браузере IE и Opera */
-    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    margin-left: 0; /* РћС‚СЃС‚СѓРї СЃР»РµРІР° РІ Р±СЂР°СѓР·РµСЂРµ IE Рё Opera */
+    padding-left: 0; /* РћС‚СЃС‚СѓРї СЃР»РµРІР° РІ Р±СЂР°СѓР·РµСЂРµ Firefox, Safari, Chrome */
    }
 .list-style-none{
 	padding: 0; margin: 0;
