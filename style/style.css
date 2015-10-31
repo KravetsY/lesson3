@@ -1,0 +1,30 @@
+li{
+	padding: 3px;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+.list-style-none{
+	padding: 0; margin: 0;
+}
+.ots{
+	margin-top:5px;
+}
+.form{
+	padding: 0 10% 0 10%;
+}
+.text-h{
+	font-weight: bold;
+}
+.pad{
+	padding-top: 5px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.text-left{
+	text-align: left;
+}
