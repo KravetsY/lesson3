@@ -26,14 +26,16 @@
 				</li>
 				<li>
 					<label>Пол:</label>
-					<input type="radio" name="radio" value="1">
-					<label for="radio">Мужской</label>
-					<input type="radio" name="radio" value="2">
-					<label for="radio">Женский</label>
+					<label for="radio">
+					<input type="radio" value="1">
+					Мужской</label>
+					<label for="radio">
+					<input type="radio" value="2">
+					Женский</label>
 				</li>
 				<li>
 					<label for="old">Возраст
-					<input type="text" name="old" value="">
+					<input type="text" value="">
 					лет</label>
 				</li>
 			</ul>
@@ -42,49 +44,55 @@
 		<fieldset>
 			<legend class="text-h">Подробно о себе</legend>
 			<ul>
-				<li>
-					<input type="radio" name="radio" value="1">
-					<label for="radio">Молодой человек</label>
+				<li>	
+					<label for="radio">
+					<input type="radio" value="1">
+					Молодой человек</label>
 				</li>
-				<li>
-					<input type="radio" name="radio" value="2">
-					<label for="radio">Девушка</label>
+				<li>	
+					<label for="radio">
+					<input type="radio" value="2">
+					Девушка</label>
 				</li>
 				
 					<li class="list-style-none">
-						<input type="text" name="date" value="">
-						<label for="date">Дата рождения</label>
+						<label for="date">
+						<input type="text" value="">
+						Дата рождения</label>
 					</li>	
 					<li class="list-style-none">
-						<input type="text" name="gen" value="">
-						<label for="gen">Семейное положение</label>
+						<label for="gen">
+						<input type="text" value="">
+						Семейное положение</label>
 					</li>
-					<li class="list-style-none">					
-						<input type="text" name="status" value="">
-						<label for="status">Социальный статус</label>
+					<li class="list-style-none">
+						<label for="status">					
+						<input type="text" value="">
+						Социальный статус</label>
 					</li>	
 					<li class="list-style-none">
-						<input type="text" name="home" value="">
-						<label for="home">Место жительства</label>
+						<label for="home">
+						<input type="text" value="">
+						Место жительства</label>
 					</li>
 				<li>
 					<label class="text-h">Что вы обычно делаете на выходных</label>
 				</li>
 				<li>
-					<label>
-					<input type="checkbox" name="doing_on_weekends[ck1]" value="1">Сплю</label>
+					<label for="doing_on_weekends">
+					<input type="checkbox" value="1">Сплю</label>
 				</li>
 				<li>
-					<label>
-					<input type="checkbox" name="doing_on_weekends[ck2]" value="2">Гуляю с друзьями</label>
+					<label for="doing_on_weekends">
+					<input type="checkbox" value="2">Гуляю с друзьями</label>
 				</li>
 				<li>
-					<label>
-					<input type="checkbox" name="doing_on_weekends[ck3]" value="3">Хожу на рыбалку</label>
+					<label for="doing_on_weekends">
+					<input type="checkbox" value="3">Хожу на рыбалку</label>
 				</li>
 				<li>
-					<label>
-					<input type="checkbox" name="doing_on_weekends[ck4]" value="4">Играю в игры</label>
+					<label for="doing_on_weekends">
+					<input type="checkbox" value="4">Играю в игры</label>
 				</li>
 				<li>
 					<label class="text-h">Рассказать о формах в книге, посвященной HTML:</label>
@@ -94,26 +102,30 @@
 						<option value="1">Site frequency:</option>
 						<option value="2">Site frequency1</option>
 						<option value="3">Site frequency2</option>
-					</select>
+						</select>
 				</li>
 				<li>
 					<label class="text-h">Сколько книг вы прочитали за свою жизнь:</label>
 					<ul>
-						<li>
-							<input type="radio" name="radio" value="1">
-							<label for="radio">0-10</label>
+						<li>	
+							<label for="radio">
+							<input type="radio" value="1">
+							0-10</label>
 						</li>
 						<li>
-							<input type="radio" name="radio" value="2">
-							<label for="radio">11-20</label>
+							<label for="radio">
+							<input type="radio" value="2">
+							11-20</label>
 						</li>
 						<li>
-							<input type="radio" name="radio" value="3">
-							<label for="radio">21-50</label>
+							<label for="radio">
+							<input type="radio" value="3">
+							21-50</label>
 						</li>
 						<li>
-							<input type="radio" name="radio" value="4">
-							<label for="radio">50+</label>
+							<label for="radio">
+							<input type="radio" value="4">
+							50+</label>
 						</li>
 					</ul>
 				</li>
@@ -121,7 +133,7 @@
 					<label for="about" class="text-h">Ваш комментарии:</label>
 				</li>
 				<li>
-					<textarea name="about" rows="10" cols="45"></textarea>
+					<label for="about" class="text-h"><textarea rows="10" cols="45"></textarea></label>
 				</li>		
 				<li>
 					<label></label>
@@ -138,12 +150,12 @@
 			<legend class="text-h">И в заключение</legend>
 			<ul>
 				<li>
-					<label for="f_name"></label>
-					<input type="text" name="text" value="Это поле было введено до вас">
+					<label for="text">
+					<input type="text" value="Это поле было введено до вас"></label>
 				</li>	
 				<li>
-					<p><label for="mail" class="text-h">Email</label></p>
-					<input type="text" name="mail" value="">
+					<p><label for="mail" class="text-h">Email
+					<input type="text" value=""></label></p>
 				</li>
 				<li>
 					<label class="text-h">Хотите подписаться на самую модную подписку спама?</label>
@@ -152,16 +164,16 @@
 					<label><i>Выберите категории</i></label>
 				</li>	
 						<li>
-							<label>
-							<input type="checkbox" name="doing_on_weekends[ck1]" value="1">Оборудование</label>
+							<label for="doing_on_weekends">
+							<input type="checkbox" value="1">Оборудование</label>
 						</li>
 						<li>
-							<label>
-							<input type="checkbox" name="doing_on_weekends[ck2]" value="2">Как приготовить обеды</label>
+							<label for="doing_on_weekends">
+							<input type="checkbox" value="2">Как приготовить обеды</label>
 						</li>
 						<li>
-							<label>
-							<input type="checkbox" name="doing_on_weekends[ck2]" value="2">Заработай миллион за два дня!</label>
+							<label for="doing_on_weekends">
+							<input type="checkbox" value="2">Заработай миллион за два дня!</label>
 						</li>
 					
 				
@@ -169,16 +181,19 @@
 					<label class="text-h">На сколько сложная задача</label>
 					<ul>
 						<li>
-							<input type="radio" name="radio" value="1">
-							<label for="radio">Совсем нет</label>
+							<label for="radio">
+							<input type="radio" value="1">
+							Совсем нет</label>
 						</li>
 						<li>
-							<input type="radio" name="radio" value="2">
-							<label for="radio">Так себе</label>
+							<label for="radio">
+							<input type="radio" value="2">
+							Так себе</label>
 						</li>
 						<li>
+							<label for="radio">
 							<input type="radio" name="radio" value="3">
-							<label for="radio">Еле справился</label>
+							Еле справился</label>
 						</li>
 					</ul>
 				</li>
